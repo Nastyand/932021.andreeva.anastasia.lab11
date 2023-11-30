@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+        <title>Home Page - Backend1</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">Backend1</div>
+            <div class="home" ><a class ="home" href = "/">Home</a></div>
+        </header>
+        <div class="content">
+            <div class="page_head">PassUsingModel</div>
+            <p><b>Rand Value First: <span class="first_value"></span></b></p>
+            <p><b>Rand Value Second: <span class="second_value"></span></b></p>
+            <p><b>Add: </b></p>
+            <div><span class="first_value"></span> + <span class="second_value"></span> = <span class="add_value"> </span></div>
+            <p><b>Sub: </b></p>
+            <div><span class="first_value"></span> - <span class="second_value"></span> = <span class="sub_value"> </span></div>
+            <p><b>Mult: </b></p>
+            <div><span class="first_value"></span> * <span class="second_value"></span> = <span class="mult_value"> </span></div>
+            <p><b>Div: </b></p>
+            <div><span class="first_value"></span> / <span class="second_value"></span> = <span class="div_value"> </span></div>
+        </div>
+        <div class="line"></div>
+        <footer>© 2019 - Backend1</footer>
+    </body>
+</html>
